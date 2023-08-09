@@ -1,0 +1,61 @@
+.bookshelf-posts {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.book-details {
+   margin: 5px !important;
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid #EAEAEA;
+   padding: 5px;
+ }
+
+.box-information {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ .link-design{
+   text-decoration: none !important;
+   color: #0D3073;
+   font-size: 20px;
+ }
+
+ .book-cover-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+ }
+
+ .bi-facebook{
+   color: #1092F3;
+ }
+
+.bi-heart-fill {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.bi-heart-fill:hover{
+    fill: red;
+}
+.bi-check-circle{
+    position: absolute;
+    right: 0;
+}
+
+
+.bi-facebook:hover {
+   color: #3588FE;
+}
+
+
+.remove-from-wishlist {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -16px;
+    cursor: pointer;
+}
