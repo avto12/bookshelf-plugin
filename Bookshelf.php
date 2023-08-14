@@ -52,6 +52,6 @@ function my_plugin_enqueue_book_script()
 add_action('wp_enqueue_scripts', 'my_plugin_enqueue_book_script');
 
 
-ob_end_flush(); // Send the buffered output to the brows
+ob_end_clean();
 
 
